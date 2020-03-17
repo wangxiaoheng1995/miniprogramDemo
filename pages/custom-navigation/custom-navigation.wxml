@@ -1,0 +1,7 @@
+<!--pages/custom-navigation/custom-navigation.wxml-->
+<view class="custom-nav" style='padding-top:{{statusBarHeight}}px;'>
+  <wux-icon bindtap='navBack' type="ios-arrow-back" color="#fff" wux-class="arrow-back" />
+  <text>自定义导航</text>
+</view>
+<wux-dialog id="wux-dialog" />
+<text>pages/custom-navigation/custom-navigation.wxml</text>

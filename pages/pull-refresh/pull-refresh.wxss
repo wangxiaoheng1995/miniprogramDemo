@@ -1,0 +1,14 @@
+/* pages/pull-refresh/pull-refresh.wxss */
+.no-refresh{
+  height:0;
+  transition:all ease-out .5s;
+  overflow:hidden;
+  background: rgba(0,0,0,.8);
+  text-align: center;
+  color: #fff;
+  font-size: 28rpx;
+}
+.is-refresh{
+  height:100rpx;
+  line-height: 100rpx;
+}

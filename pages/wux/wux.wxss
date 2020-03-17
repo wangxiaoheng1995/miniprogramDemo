@@ -1,0 +1,4 @@
+/* pages/wux/wux.wxss */
+.wux-rater__text{
+  margin-left:100rpx;
+}

@@ -1,0 +1,11 @@
+<view>
+  <canvas 
+  type="2d"
+  id="cas"
+  class="canvas"
+  bindtouchstart="casTouchstart"
+  bindtouchmove="casTouchmove"
+  bindtouchend="casTouchend"
+  ></canvas>
+  <!-- <button>选择图片</button> -->
+</view>

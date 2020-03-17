@@ -1,0 +1,4 @@
+<!--pages/card-to-top/card-to-top.wxml-->
+<scroll-view scroll-x="true" class="scroll-view">
+  <view animation="{{item.toTopAnimationData}}" wx:key="{{index}}" wx:for="{{cardList}}" bindtap='toTopAnimation' data-index="{{index}}">{{item.val}}</view>
+</scroll-view>

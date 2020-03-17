@@ -1,0 +1,38 @@
+/* pages/split-input/split-input.wxss */
+.check-code-content{
+  position: relative;
+  height: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding:0 40px;
+}
+.check-code-content>text{
+  width: 15%;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+.check-code-content.input-focus text.focus::after{
+  content: "|";
+  display: inline-block;
+  animation: focus linear 1.2s infinite;
+}
+@keyframes focus {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;    
+  }
+  to {
+    opacity: 0;
+  }
+}
+.check-code{
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  color:rgba(0,0,0,0);
+  background: rgba(0,0,0,0);
+}

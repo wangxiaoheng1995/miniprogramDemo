@@ -1,0 +1,8 @@
+<!--pages/canvas/canvas.wxml-->
+<view>
+  <canvas canvas-id='canvas' id="canvas">
+    <cover-view class="cv">
+      覆盖组件
+    </cover-view>
+  </canvas>
+</view>

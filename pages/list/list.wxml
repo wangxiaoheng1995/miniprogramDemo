@@ -1,0 +1,18 @@
+<view class='page-settlement bg-fff'>
+  <!-- 无url -->
+  <view class='page-settlement-item' wx:for="{{settlement}}" wx:key="{{index}}">
+    <view wx:if="{{item.url == ''}}">
+      <view class='settlement-gray'>{{item.title}}</view>
+      <view class='settlement-black'>{{item.data}}</view>
+      <view class='settlement-red'>{{item.status}}</view>
+    </view>
+
+    <!-- 有url -->
+    <navigator wx:if="{{item.url}}" wx:key="{{index}}" url='{{item.url}}'>
+      <view class='settlement-gray'>{{item.title}}</view>
+      <view class='settlement-black'>{{item.data}}</view>
+      <view class='settlement-red'>{{item.status}}</view>
+    </navigator>
+  </view>
+
+</view>

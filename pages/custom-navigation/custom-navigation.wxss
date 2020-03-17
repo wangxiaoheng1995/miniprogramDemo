@@ -1,0 +1,15 @@
+/* pages/custom-navigation/custom-navigation.wxss */
+.custom-nav{
+  height: 100rpx;
+  background: #cc99ff;
+  line-height: 100rpx;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+.arrow-back{
+  bottom: 20rpx;
+  left: 0;
+  padding: 0 30rpx;
+  position: absolute;
+}

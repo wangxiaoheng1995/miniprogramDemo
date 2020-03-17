@@ -1,0 +1,5 @@
+/* pages/transform/demo1.wxss */
+.canvas {
+  width: 750rpx;
+  height: 750rpx;
+}

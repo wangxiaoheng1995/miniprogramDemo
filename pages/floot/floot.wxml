@@ -1,0 +1,15 @@
+<!--pages/floot/floot.wxml-->
+<scroll-view class="left">
+<view bindtap='scrollInto' data-index="0" class='{{currentIndex==0&&"current"}}'><text>1</text></view>
+<view bindtap='scrollInto' data-index="1" class='{{currentIndex==1&&"current"}}'><text>2</text></view>
+<view bindtap='scrollInto' data-index="2" class='{{currentIndex==2&&"current"}}'><text>3</text></view>
+<view bindtap='scrollInto' data-index="3" class='{{currentIndex==3&&"current"}}'><text>4</text></view>
+<view bindtap='scrollInto' data-index="4" class='{{currentIndex==4&&"current"}}'><text>5</text></view>
+</scroll-view>
+<scroll-view class='right' scroll-with-animation="true" scroll-top="{{scrollTop}}" scroll-y="true" bindscroll="scorllViewOnScroll">
+<view id="floot0" class="floot-page"><text>1</text></view>
+<view id="floot1" class="floot-page"><text>2</text></view>
+<view id="floot2" class="floot-page"><text>3</text></view>
+<view id="floot3" class="floot-page"><text>4</text></view>
+<view id="floot4" class="floot-page"><text>5</text></view>
+</scroll-view>

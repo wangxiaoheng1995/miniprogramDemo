@@ -1,0 +1,7 @@
+<!--pages/flex/flex.wxml-->
+<text>pages/flex/flex.wxml</text>
+<view class="flex">
+  <view></view>
+  <view></view>
+  <view></view>
+</view>

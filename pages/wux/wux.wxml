@@ -1,0 +1,27 @@
+<!--pages/wux/wux.wxml-->
+<text>pages/wux/wux.wxml</text>
+<wux-cell-group title="评价">
+    <wux-cell title="描述相符" hover-class="none">
+        <view slot="footer">
+            <wux-rater default-value="{{ 5 }}" bindchange="raterChange" data-key="rater1" />
+            <text class="wux-rater__text">{{ raterVlaue.rater1 }} stars</text>
+        </view>
+    </wux-cell>
+    <wux-cell title="物流服务" hover-class="none">
+        <view slot="footer">
+            <wux-rater default-value="{{ 5 }}" bindchange="raterChange" data-key="rater2" />
+            <text class="wux-rater__text">{{ raterVlaue.rater2 }} stars</text>
+        </view>
+    </wux-cell>
+    <wux-cell title="服务态度" hover-class="none">
+        <view slot="footer">
+            <wux-rater default-value="{{ 5 }}" bindchange="raterChange" data-key="rater3" />
+            <text class="wux-rater__text">{{ raterVlaue.rater3 }} stars</text>
+        </view>
+    </wux-cell>
+</wux-cell-group>
+<!-- 日期选择器 -->
+<wux-calendar id="wux-calendar" />
+<wux-cell-group title="日期选择器">
+    <wux-cell title="日期单选" extra="{{ date }}" hover-class="none" bind:click="openCalendar"></wux-cell>
+</wux-cell-group>

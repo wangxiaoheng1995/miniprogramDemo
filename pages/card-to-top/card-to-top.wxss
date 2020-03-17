@@ -1,0 +1,19 @@
+/* pages/card-to-top/card-to-top.wxss */
+.scroll-view{
+  background: #000;
+  height: 400rpx;
+  white-space: nowrap;
+}
+.scroll-view view{
+  width: 580rpx;
+  height: 80%;
+  margin:40rpx;
+  margin-right:0;
+  background: #fff;
+  display: inline-block;
+  position: relative;
+  left:0;
+}
+.scroll-view view:last-child{
+  margin-right:40rpx;
+}

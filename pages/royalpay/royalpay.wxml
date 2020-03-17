@@ -1,0 +1,2 @@
+<!--pages/royalpay/royalpay.wxml-->
+<text bindtap='test'>pages/royalpay/royalpay.wxml</text>

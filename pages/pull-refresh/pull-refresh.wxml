@@ -1,0 +1,7 @@
+<scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style='height:50vh;' bindscroll="viewScrollHandle" bindtouchend='touchendHandle' bindlongtap='longHandle' scroll-with-animation="true">
+<view class='no-refresh is-refresh'>加载中</view>
+<view style='height:10vh;background:red;'></view>
+<view style='height:30vh;background:green;'></view>
+<view style='height:30vh;background:blue;'></view>
+
+</scroll-view>

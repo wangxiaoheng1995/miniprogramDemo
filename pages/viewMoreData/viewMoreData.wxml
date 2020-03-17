@@ -1,0 +1,71 @@
+<view class='effect-information-hd'>
+  <block wx:for="{{tabs}}" wx:key="{{index}}">
+    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+      <view class="weui-navbar__title">{{item}}</view>
+    </view>
+  </block>
+</view>
+
+
+<view class="weui-tab__panel bg-eee">
+  <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+    <view class='page-hd'>
+      <view>yyyy-mm-dd 周x</view>
+      <text class='page-hd-end'>截止到今天10时</text>
+    </view>
+
+    <view class='page-foldLineDiagram bg-fff'>
+      <view class='number-of-clicks-box'>
+        <view>点击数</view>
+        <view class='number-of-clicks'>0</view>
+      </view>
+
+      <view class="container">
+        <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler" disable-scroll='true'></canvas>
+        <button type="primary" bindtap="updateData" size='mini'>更新数据</button>
+      </view>
+    </view>
+
+    <view class='page-foldLineDiagram bg-fff'>
+      <view class='number-of-clicks-box'>
+        <view>付款笔数</view>
+        <view class='number-of-clicks'>0</view>
+      </view>
+
+      <!-- <view class="container">
+        <canvas canvas-id="lineCanvas1" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+        <button type="primary" bindtap="updateData" size='mini'>更新数据</button>
+      </view> -->
+    </view>
+
+    <view class='page-foldLineDiagram bg-fff'>
+      <view class='number-of-clicks-box'>
+        <view>付款预估收入</view>
+        <view class='number-of-clicks'>0</view>
+      </view>
+
+      <!-- <view class="container">
+        <canvas canvas-id="lineCanvas2" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+        <button type="primary" bindtap="updateData" size='mini'>更新数据</button>
+      </view> -->
+    </view>
+
+    <view class='page-foldLineDiagram bg-fff'>
+      <view class='number-of-clicks-box'>
+        <view>结算预估收入</view>
+        <view class='number-of-clicks'>0</view>
+      </view>
+
+      <!-- <view class="container">
+        <canvas canvas-id="lineCanvas3" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+        <button type="primary" bindtap="updateData" size='mini'>更新数据</button>
+      </view> -->
+    </view>
+  </view>
+
+  <view class="weui-tab__content" hidden="{{activeIndex != 1}}">zuo</view>
+
+  <view class="weui-tab__content" hidden="{{activeIndex != 2}}">7</view>
+
+  <view class="weui-tab__content" hidden="{{activeIndex != 3}}">30</view>
+</view>

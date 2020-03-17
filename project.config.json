@@ -1,0 +1,181 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.3",
+	"appid": "wx181abce90323e3f9",
+	"projectname": "demo",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 16,
+			"list": [
+				{
+					"id": -1,
+					"name": "floot",
+					"pathName": "pages/floot/floot",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "charts",
+					"pathName": "pages/viewMoreData/viewMoreData",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "list",
+					"pathName": "pages/list/list",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "发放概览",
+					"pathName": "pages/profit/profit",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pull-refresh",
+					"pathName": "pages/pull-refresh/pull-refresh",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "svg",
+					"pathName": "pages/svg/svg",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "icon-fonts",
+					"pathName": "pages/icon-fonts/icon-fonts",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "split-input",
+					"pathName": "pages/split-input/split-input",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 8,
+					"name": "flex",
+					"pathName": "pages/flex/flex",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "wux",
+					"pathName": "pages/wux/wux",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "customNav",
+					"pathName": "pages/custom-navigation/custom-navigation",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "search-bar",
+					"pathName": "pages/search-components/search-components",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "卡片置顶",
+					"pathName": "pages/card-to-top/card-to-top",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "form",
+					"pathName": "pages/form/form",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 14,
+					"name": "皇家支付",
+					"pathName": "pages/royalpay/royalpay",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "canvas",
+					"pathName": "pages/canvas/canvas",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "map",
+					"pathName": "pages/map/map",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 17,
+					"name": "图像自由变形",
+					"pathName": "pages/transform/demo1",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

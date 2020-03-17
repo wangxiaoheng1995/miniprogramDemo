@@ -1,0 +1,10 @@
+<view class='search-box'>
+  <view class='search'>
+    <text class='iconfont sousuo2 icon-search'></text>
+    <text>搜索</text>
+  </view>
+</view>
+<form bindreset="cleanInput" class='put-questions-footer bg-fff'>
+    <input placeholder='向已买过的人提问，50字以内' class='put-questions-enter' maxlength='40' bindinput='bindMessage'>{{userMessage}}</input>
+    <button bindtap="sendMessage" formType="reset" class='put-questions'>提问</button>
+  </form>

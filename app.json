@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/floot/floot",
+    "pages/viewMoreData/viewMoreData",
+    "pages/list/list",
+    "pages/profit/profit",
+    "pages/pull-refresh/pull-refresh",
+    "pages/svg/svg",
+    "pages/icon-fonts/icon-fonts",
+    "pages/split-input/split-input",
+    "pages/flex/flex",
+    "pages/wux/wux",
+    "pages/custom-navigation/custom-navigation",
+    "pages/search-components/search-components",
+    "pages/card-to-top/card-to-top",
+    "pages/form/form",
+    "pages/royalpay/royalpay",
+    "pages/canvas/canvas",
+    "pages/map/map",
+    "pages/transform/demo1"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "wux-rater": "/miniprogram_npm/wux-weapp/rater/index",
+    "wux-calendar": "/miniprogram_npm/wux-weapp/calendar/index",
+    "wux-cell-group": "/miniprogram_npm/wux-weapp/cell-group/index",
+    "wux-cell": "/miniprogram_npm/wux-weapp/cell/index",
+    "wux-icon": "/miniprogram_npm/wux-weapp/icon/index",
+    "wux-dialog": "/miniprogram_npm/wux-weapp/dialog/index"
+  }
+}
